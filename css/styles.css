@@ -1,0 +1,176 @@
+:root{
+--primary-text-color:#2E2F42;
+--secondary-color:#434455;
+--accent-color:#4D5AE5;
+--footer-logo:#F4F4FD;
+--color-button:#fff;
+--hover-color:#404BBF;
+}
+
+body{
+background-color:var(--color-button);
+font-family: "Roboto", sans-serif;
+color:var(--primary-text-color);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 2%;
+}
+
+.accent-color{
+ color: var(--accent-color);
+}
+
+.logo{
+ color:var(--primary-text-color);
+ font-family: 'Raleway';
+ font-weight: 800;
+ font-size: 18px;
+ line-height:1.33;
+ text-decoration: none;
+}
+
+.list{
+list-style: none;
+}
+
+.link{
+color: var(--primary-text-color);
+font-weight: 600;
+text-decoration: none;
+}
+
+.link:hover {
+color: var(--hover-color);
+}
+
+.link:focus,
+.link:active {
+color: var(--accent-color);
+}
+
+.contacts{
+color: var(--secondary-color);
+text-decoration: none;
+}
+
+.contacts:hover{
+ color: var(--hover-color);
+}
+
+.contacts:focus,
+.contacts:active {
+ color: var(--accent-color);
+}
+
+.title-page{
+ color: var(--color-button);
+ background-color:var(--primary-text-color) ;
+ font-weight: 600;
+ font-size: 56px;
+ line-height:1.07;
+ text-align: center;
+}
+
+.btn{
+color:var(--color-button);
+background-color: var(--accent-color);
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height:1.18;
+cursor: pointer;
+}
+
+.btn:hover{
+background-color: var(--hover-color);
+color:var(--color-button)
+}
+
+.btn:focus,
+.btn:active {
+background-color: var(--accent-color);
+}
+
+.features-title{
+font-weight: 500;
+font-size: 20px;
+line-height:1.2;
+}
+
+.features-description{
+color: var(--secondary-color);
+}
+
+.title-works{
+font-weight: 600;
+font-size: 36px;
+line-height:1.11;
+text-align: center;
+}
+
+.back{
+background-color:var(--footer-logo) ;
+}
+
+.title-our-team{
+font-weight: 600;
+font-size:36px;
+line-height:1.11;
+text-align: center;
+}
+
+.card-title{
+font-weight: 500;
+font-size:20px;
+line-height:1.2;
+}
+
+.footer-logo.logo{
+color:var(--footer-logo);
+text-decoration: none;
+}
+.footer{
+background-color: var(--primary-text-color);
+}
+
+.info{
+color:#E7E9FC;
+}
+
+.btn-products{
+color: var(--accent-color);
+background-color:var(--footer-logo);
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+}
+
+.btn-products:hover,
+.btn-products:focus,
+.btn-products:active {
+background-color: var(--hover-color);
+color: var(--color-button);
+}
+
+
+.btn-products:focus,
+.btn-products:active {
+background-color: var(--accent-color);
+}
+
+.product-link{
+text-decoration: none;
+}
+
+.title-product{
+ color: var(--primary-text-color);
+ font-weight: 500;
+ font-size:20px;
+ line-height:1.2;
+}
+
+.description-product{
+ color: var(--secondary-color);   
+}
