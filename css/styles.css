@@ -39,11 +39,12 @@ font-weight: 600;
 text-decoration: none;
 }
 
-.link:hover {
+.link:hover,
+.link:focus{
 color: var(--hover-color);
 }
 
-.link:focus,
+
 .link:active {
 color: var(--accent-color);
 }
@@ -53,18 +54,21 @@ color: var(--secondary-color);
 text-decoration: none;
 }
 
-.contacts:hover{
+.contacts:hover,
+.contacts:focus{
  color: var(--hover-color);
 }
 
-.contacts:focus,
 .contacts:active {
  color: var(--accent-color);
 }
 
+.banner{
+background-color:var(--primary-text-color) ;   
+}
+
 .title-page{
  color: var(--color-button);
- background-color:var(--primary-text-color) ;
  font-weight: 600;
  font-size: 56px;
  line-height:1.07;
@@ -154,8 +158,6 @@ background-color: var(--hover-color);
 color: var(--color-button);
 }
 
-
-.btn-products:focus,
 .btn-products:active {
 background-color: var(--accent-color);
 }
